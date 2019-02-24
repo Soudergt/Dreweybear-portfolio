@@ -1,0 +1,134 @@
+main {
+  background-image: url("tri.jpg")
+}
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+  font-style: normal;
+  /* background: url("forest1.jpg") top center repeat; */
+  background-image: url("images/forest1.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#header {
+  font-size: 60px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 3px 3px #000;
+  color: #FFF;
+  padding: 30px 30px 15px 30px;
+  margin-top: 45px;
+}
+
+.main-content {
+  margin: 0px 30px;
+}
+
+.intro-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.img-container {
+  display: inline-block;
+  padding: 30px;
+  width: 575px;
+  z-index: 15;
+}
+
+.img-container>img {
+  width: 100%;
+  height: auto;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.6);
+}
+
+.img-container-lg {
+  width: 520px;
+  height: 295px;
+  z-index: 15;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.6);
+}
+
+.img-container-lg>img {
+  width: 520px;
+  height: 295px;
+}
+
+.img-content-container {
+  display: inline-block;
+  padding: 30px 30px 30px 100px;
+  margin-left: -100px;
+  z-index: 10;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #595959;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.6);
+}
+
+.video-container {
+  display: inline-block;
+  width: 575px;
+  height: 350px;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.6);
+  z-index: 15;
+}
+
+.video-content-container-right {
+  display: inline-block;
+  padding: 30px 100px 30px 30px;
+  margin-right: -50px;
+  width: 600px;
+  height: auto;
+  z-index: 10;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #595959;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.6);
+}
+
+.video-content-container-left {
+  display: inline-block;
+  padding: 30px 30px 30px 100px;
+  margin-left: -50px;
+  width: 600px;
+  height: auto;
+  z-index: 10;
+  border: 1px solid #595959;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.6);
+}
+
+.spotify-container {
+  display: inline-block;
+  width: 300px;
+  height: 380px;
+  z-index: 15;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.6);
+}
+
+.spotify-content-container-left {
+  display: inline-block;
+  padding: 30px 30px 30px 100px;
+  margin-left: -50px;
+  width: 500px;
+  z-index: 10;
+  border: 1px solid #595959;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.6);
+}
+
+.spotify-content-container-right {
+  display: inline-block;
+  padding: 30px 100px 30px 30px;
+  margin-right: -100px;
+  width: 500px;
+  z-index: 10;
+  border: 1px solid #595959;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.6);
+}
